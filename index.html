@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="includes/style.css">
+		<script src="includes/javascript.js"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+		<title>I am Groot</title>
+	</head>
+	<body>
+		<div id="wrapper">
+			<main>
+				<h1>I am Groot</h1>
+				<form id="myForm">
+				<label>I am Groot:</label>
+				<input type="text" id="nameInp" name="fullName" placeholder="Name.." required><br>
+				
+				<label>I am Groot:</label>
+				<input pattern="[a-z][0-9]{*}" type="password" name="pass" placeholder="Password.." required><br>
+				
+				<label>I am Groot:</label>
+				<input type="email" autocomplete="on" name="mail" placeholder="Email.." required><br>
+				
+				<label>I am Groot:</label>
+				<input type=”url” name="website" autocomplete="on" placeholder="Website.." required><br>
+				
+				<label>I am Groot:</label>
+				<input type="tel" name="phone" placeholder="Phone.." required><br>
+				
+				<label>I am Groot:</label> <!--Coffee-->
+				<input type="number" name="cofee" placeholder="Coffee.."><br>
+				
+				<label>I am Groot:</label><!-- Temperature -->
+				<input type="range" name="temper"><br>
+				
+				<label>I am Groot:</label>
+				<input type="text" name="address" placeholder="Address.." required><br>
+				
+				<h4 id="hobbies">I am Groot:</h4> <!-- Hobbies -->
+				<div class="multiInp">
+					<input type="checkbox" name="interests[]" value="Eating">
+					<label>I am Groot!!!!</label><br>
+					<input type="checkbox" name="interests[]" value="Playing Video Games">
+					<label>I am Groot!!</label><br>
+					<input type="checkbox" name="interests[]" value="Reporting Sasi">
+					<label>I am Groot!</label><br>
+					<input type="checkbox" name="interests[]" value="Reading Books">
+					<label>I am Groot..</label><br>
+				</div>
+				
+				<h4 id="genTitle">I am Groot:</h4> <!--Gender-->
+				<div class="multiInp">
+				<input type="radio" name="gender" value="gever" required>
+				<label>I am Groot</label><br>
+				<input id="2ndGend" type="radio" name="gender" value="gever gever">
+				<label>I am Groot</label><br>
+				</div>
+				
+				<div id="ageSel">
+				<label>I am Groot:</label>
+				<select name="age">
+					<option value="18">18</option>
+					<option value="20" selected>20</option>
+					<option value="23">23</option>
+					<option value="28">28</option>
+				</select><br>
+				</div>
+				<input type="submit" id="subBtn" value="I AM GROOT!" >
+				</form>
+			</main>
+		</div>
+	</html>

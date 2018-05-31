@@ -1,0 +1,44 @@
+*{margin: 0; padding: 0;}
+
+h1{
+	text-align:center;
+}
+#wrapper {
+	width: 1000px; 
+	margin: 0px auto;
+}
+main{
+		background-image:url(../images/groot-guardians-of-the-galaxy-movie-hd-1920x1080.jpg);
+		display:block;
+}
+input, label {
+	margin-top: 20px;
+}
+
+h4, h1{
+	color:#ffffff !important;
+	padding-top:20px;
+}
+
+select{
+	padding-left:20px;
+}
+ 
+#ageSel{
+	margin-left:20px;
+}
+
+#subBtn{
+	margin-top:30px;
+	width:150px;
+	margin-left:400px;
+}
+label{
+	color:#ffffff;
+	font-size:16px;
+}
+
+.multiInp{
+	margin-left:40px;
+}
+
